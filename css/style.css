@@ -7,12 +7,17 @@
 :root {
   --bg_header: #255ee9;
   --bg_even_section: #f6f6f6;
+  --h2_font_size: 2.8rem;
+  --h3_font_size: 1.6rem;
 }
 body {
   font-family: "Roboto", sans-serif;
 }
 h2 {
-  font-size: 2.8rem;
+  font-size: var(--h2_font_size);
+}
+h3 {
+  font-size: var(--h3_font_size);
 }
 a {
   text-decoration: none;
@@ -122,5 +127,12 @@ section > div > h2 {
 main .bg_color_grey:last-of-type section {
   flex-direction: column-reverse;
   text-align: center;
+}
+main .bg_color_grey:last-of-type div {
+  margin-top: 2rem;
+}
+main .bg_color_grey:last-of-type img:first-of-type {
+  width: calc(var(--h3_font_size) * 20);
+  align-self: center;
 }
 /* /main */
