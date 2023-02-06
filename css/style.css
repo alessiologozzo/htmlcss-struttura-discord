@@ -7,6 +7,7 @@
 :root {
   --bg_header: #255ee9;
   --bg_even_section: #f6f6f6;
+  --sfondo_blu_color: #7289da;
   --h2_font_size: 2.8rem;
   --h3_font_size: 1.6rem;
 }
@@ -74,8 +75,12 @@ ul a {
   background-color: black;
   color: white;
 }
-.sfondo_nero > a {
+.sfondo_nero > a,
+.sfondo_blu a {
   color: white;
+}
+.sfondo_blu {
+  background-color: var(--sfondo_blu_color);
 }
 .login a {
   color: black;
@@ -128,8 +133,10 @@ main .bg_color_grey:last-of-type section {
   flex-direction: column-reverse;
   text-align: center;
 }
-main .bg_color_grey:last-of-type div {
+main .bg_color_grey:last-of-type div:last-of-type {
   margin-top: 2rem;
+}
+main .bg_color_grey:last-of-type div:first-of-type {
 }
 main .bg_color_grey:last-of-type img:first-of-type {
   width: calc(var(--h3_font_size) * 20);
