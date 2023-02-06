@@ -1,0 +1,95 @@
+/* general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg_header: #255ee9;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+h2 {
+  font-size: 2.8rem;
+}
+a {
+  text-decoration: none;
+}
+/* /general */
+
+/* header */
+header {
+  min-height: 100vh;
+  background-color: var(--bg_header);
+  background-image: url("../img/jumbo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: calc(100vw / 7);
+}
+nav ul {
+  display: flex;
+  gap: 3rem;
+  list-style-type: none;
+}
+ul a {
+  color: white;
+}
+.riquadro {
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.piccolo {
+  padding: 0.5rem;
+}
+.grande {
+  padding: 0.8rem;
+}
+.sfondo_bianco {
+  background-color: white;
+}
+.sfondo_bianco > a {
+  color: black;
+}
+.sfondo_nero {
+  background-color: black;
+  color: white;
+}
+.sfondo_nero > a {
+  color: white;
+}
+.login a {
+  color: black;
+  text-decoration: none;
+}
+header h2,
+header p {
+  color: white;
+}
+header h2 {
+  margin-top: 35vh;
+}
+header p {
+  width: 50%;
+  margin-top: 2rem;
+  align-self: center;
+}
+header > div:last-child {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-self: center;
+}
+/* header */
