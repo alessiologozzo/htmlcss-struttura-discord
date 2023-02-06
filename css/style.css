@@ -128,6 +128,12 @@ main section {
   margin: 0 auto;
   display: flex;
 }
+/* .wave_grey,
+.wave_white {
+  background-image: url("../img/wave.svg");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+} */
 main section > div {
   align-self: center;
 }
