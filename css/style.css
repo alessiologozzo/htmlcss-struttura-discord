@@ -140,10 +140,10 @@ main section {
 main section > div {
   align-self: center;
 }
-main .bg_color_grey:first-of-type section {
+main div:nth-of-type(2) section {
   flex-direction: row-reverse;
 }
-main .bg_color_grey:first-of-type div {
+main div:nth-of-type(2) div {
   margin-bottom: 8rem;
 }
 main section > div > h2 {
