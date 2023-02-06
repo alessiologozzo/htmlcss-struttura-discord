@@ -30,7 +30,6 @@ header {
   padding-top: 1rem;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
 }
 nav {
   display: flex;
@@ -92,4 +91,15 @@ header > div:last-child {
   margin-top: 1rem;
   align-self: center;
 }
-/* header */
+/* /header */
+
+/* main */
+section {
+  min-height: 100vh;
+  display: flex;
+}
+section:nth-child(odd) h2 {
+  align-self: center;
+  margin-right: 2rem;
+}
+/* /main */
