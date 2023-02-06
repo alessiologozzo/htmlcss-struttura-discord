@@ -104,6 +104,9 @@ header h2,
 header p {
   color: white;
 }
+header p {
+  text-align: center;
+}
 header h2 {
   margin-top: 35vh;
   align-self: center;
